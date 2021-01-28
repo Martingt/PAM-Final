@@ -16,17 +16,17 @@
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* OneMinuteBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* OneMinuteBarTests.m */; };
+		746165F6EFD2445FA74845D8 /* AvenirLTStd-LightOblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = 41B1BBF37BF44817982FE6DA /* AvenirLTStd-LightOblique.otf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		896B89DF83364F13B8C81079 /* AvenirLTStd-BookOblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = 982F9900F9194DD0ADCF671C /* AvenirLTStd-BookOblique.otf */; };
 		9F9948E385C1F41A7F484AB5 /* libPods-OneMinuteBar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 25A0B9C9EC8E6AB045D0117F /* libPods-OneMinuteBar.a */; };
 		A18659259224507D7AAE2795 /* libPods-OneMinuteBar-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 926C2633F562046379685261 /* libPods-OneMinuteBar-tvOS.a */; };
-		D455D5145543927341A4A40B /* libPods-OneMinuteBar-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA591EC472FB704DE4011AA9 /* libPods-OneMinuteBar-tvOSTests.a */; };
-		F3A3FB8E25BC99A6006E4F36 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F3A3FB8D25BC99A6006E4F36 /* GoogleService-Info.plist */; };
-		D71D233FB92F437DAE4C4C90 /* AvenirLTStd-Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = 81C4E6D714914B9987753A95 /* AvenirLTStd-Book.otf */; };
-		896B89DF83364F13B8C81079 /* AvenirLTStd-BookOblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = 982F9900F9194DD0ADCF671C /* AvenirLTStd-BookOblique.otf */; };
 		B67DD066CF684BC19954DE6E /* AvenirLTStd-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = B2FCD57087E04BB5A85757FF /* AvenirLTStd-Light.otf */; };
-		746165F6EFD2445FA74845D8 /* AvenirLTStd-LightOblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = 41B1BBF37BF44817982FE6DA /* AvenirLTStd-LightOblique.otf */; };
-		F042EF11CD614328BC1D108D /* AvenirLTStd-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 19A0308FFEFF4B27927169E6 /* AvenirLTStd-Medium.otf */; };
+		D455D5145543927341A4A40B /* libPods-OneMinuteBar-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA591EC472FB704DE4011AA9 /* libPods-OneMinuteBar-tvOSTests.a */; };
+		D71D233FB92F437DAE4C4C90 /* AvenirLTStd-Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = 81C4E6D714914B9987753A95 /* AvenirLTStd-Book.otf */; };
 		DF1092B94C4247EA8CEE2410 /* AvenirLTStd-MediumOblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7345CDFEA96D4CD1B9624AE7 /* AvenirLTStd-MediumOblique.otf */; };
+		F042EF11CD614328BC1D108D /* AvenirLTStd-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 19A0308FFEFF4B27927169E6 /* AvenirLTStd-Medium.otf */; };
+		F3A3FB8E25BC99A6006E4F36 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F3A3FB8D25BC99A6006E4F36 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,17 +57,23 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = OneMinuteBar/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = OneMinuteBar/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = OneMinuteBar/main.m; sourceTree = "<group>"; };
+		19A0308FFEFF4B27927169E6 /* AvenirLTStd-Medium.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "AvenirLTStd-Medium.otf"; path = "../fonts/AvenirLTStd-Medium.otf"; sourceTree = "<group>"; };
 		25A0B9C9EC8E6AB045D0117F /* libPods-OneMinuteBar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OneMinuteBar.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E47B1E0B4A5D006451C7 /* OneMinuteBar-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OneMinuteBar-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* OneMinuteBar-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OneMinuteBar-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41B1BBF37BF44817982FE6DA /* AvenirLTStd-LightOblique.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "AvenirLTStd-LightOblique.otf"; path = "../fonts/AvenirLTStd-LightOblique.otf"; sourceTree = "<group>"; };
 		4609329405B927C2E84E832B /* libPods-OneMinuteBar-OneMinuteBarTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OneMinuteBar-OneMinuteBarTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CE0C727B89429BAC5F99557 /* Pods-OneMinuteBar-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneMinuteBar-tvOS.release.xcconfig"; path = "Target Support Files/Pods-OneMinuteBar-tvOS/Pods-OneMinuteBar-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		4FC9C0C0125CA7AB84F41D8A /* Pods-OneMinuteBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneMinuteBar.debug.xcconfig"; path = "Target Support Files/Pods-OneMinuteBar/Pods-OneMinuteBar.debug.xcconfig"; sourceTree = "<group>"; };
+		7345CDFEA96D4CD1B9624AE7 /* AvenirLTStd-MediumOblique.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "AvenirLTStd-MediumOblique.otf"; path = "../fonts/AvenirLTStd-MediumOblique.otf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = OneMinuteBar/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		81C4E6D714914B9987753A95 /* AvenirLTStd-Book.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "AvenirLTStd-Book.otf"; path = "../fonts/AvenirLTStd-Book.otf"; sourceTree = "<group>"; };
 		926C2633F562046379685261 /* libPods-OneMinuteBar-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OneMinuteBar-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		927AB87C89A35D01600A0F1B /* Pods-OneMinuteBar-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneMinuteBar-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-OneMinuteBar-tvOSTests/Pods-OneMinuteBar-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		982F9900F9194DD0ADCF671C /* AvenirLTStd-BookOblique.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "AvenirLTStd-BookOblique.otf"; path = "../fonts/AvenirLTStd-BookOblique.otf"; sourceTree = "<group>"; };
 		9BCB78F32A17E67B172B75EC /* Pods-OneMinuteBar-OneMinuteBarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneMinuteBar-OneMinuteBarTests.release.xcconfig"; path = "Target Support Files/Pods-OneMinuteBar-OneMinuteBarTests/Pods-OneMinuteBar-OneMinuteBarTests.release.xcconfig"; sourceTree = "<group>"; };
 		AA591EC472FB704DE4011AA9 /* libPods-OneMinuteBar-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OneMinuteBar-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2FCD57087E04BB5A85757FF /* AvenirLTStd-Light.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "AvenirLTStd-Light.otf"; path = "../fonts/AvenirLTStd-Light.otf"; sourceTree = "<group>"; };
 		CA968D54A70EC120D75F9823 /* Pods-OneMinuteBar-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneMinuteBar-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-OneMinuteBar-tvOS/Pods-OneMinuteBar-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		D335ED903ED0E1B4939069CD /* Pods-OneMinuteBar-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneMinuteBar-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-OneMinuteBar-tvOSTests/Pods-OneMinuteBar-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		E772D3F78ACECE4D728448D5 /* Pods-OneMinuteBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneMinuteBar.release.xcconfig"; path = "Target Support Files/Pods-OneMinuteBar/Pods-OneMinuteBar.release.xcconfig"; sourceTree = "<group>"; };
@@ -75,12 +81,6 @@
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		F16E98531816377EDC3EF190 /* Pods-OneMinuteBar-OneMinuteBarTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneMinuteBar-OneMinuteBarTests.debug.xcconfig"; path = "Target Support Files/Pods-OneMinuteBar-OneMinuteBarTests/Pods-OneMinuteBar-OneMinuteBarTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F3A3FB8D25BC99A6006E4F36 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		81C4E6D714914B9987753A95 /* AvenirLTStd-Book.otf */ = {isa = PBXFileReference; name = "AvenirLTStd-Book.otf"; path = "../fonts/AvenirLTStd-Book.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		982F9900F9194DD0ADCF671C /* AvenirLTStd-BookOblique.otf */ = {isa = PBXFileReference; name = "AvenirLTStd-BookOblique.otf"; path = "../fonts/AvenirLTStd-BookOblique.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		B2FCD57087E04BB5A85757FF /* AvenirLTStd-Light.otf */ = {isa = PBXFileReference; name = "AvenirLTStd-Light.otf"; path = "../fonts/AvenirLTStd-Light.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		41B1BBF37BF44817982FE6DA /* AvenirLTStd-LightOblique.otf */ = {isa = PBXFileReference; name = "AvenirLTStd-LightOblique.otf"; path = "../fonts/AvenirLTStd-LightOblique.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		19A0308FFEFF4B27927169E6 /* AvenirLTStd-Medium.otf */ = {isa = PBXFileReference; name = "AvenirLTStd-Medium.otf"; path = "../fonts/AvenirLTStd-Medium.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		7345CDFEA96D4CD1B9624AE7 /* AvenirLTStd-MediumOblique.otf */ = {isa = PBXFileReference; name = "AvenirLTStd-MediumOblique.otf"; path = "../fonts/AvenirLTStd-MediumOblique.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +150,19 @@
 			name = OneMinuteBar;
 			sourceTree = "<group>";
 		};
+		1BBE2CE0FDD143909CD27A65 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				81C4E6D714914B9987753A95 /* AvenirLTStd-Book.otf */,
+				982F9900F9194DD0ADCF671C /* AvenirLTStd-BookOblique.otf */,
+				B2FCD57087E04BB5A85757FF /* AvenirLTStd-Light.otf */,
+				41B1BBF37BF44817982FE6DA /* AvenirLTStd-LightOblique.otf */,
+				19A0308FFEFF4B27927169E6 /* AvenirLTStd-Medium.otf */,
+				7345CDFEA96D4CD1B9624AE7 /* AvenirLTStd-MediumOblique.otf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -212,20 +225,6 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
-		};
-		1BBE2CE0FDD143909CD27A65 /* Resources */ = {
-			isa = "PBXGroup";
-			children = (
-				81C4E6D714914B9987753A95 /* AvenirLTStd-Book.otf */,
-				982F9900F9194DD0ADCF671C /* AvenirLTStd-BookOblique.otf */,
-				B2FCD57087E04BB5A85757FF /* AvenirLTStd-Light.otf */,
-				41B1BBF37BF44817982FE6DA /* AvenirLTStd-LightOblique.otf */,
-				19A0308FFEFF4B27927169E6 /* AvenirLTStd-Medium.otf */,
-				7345CDFEA96D4CD1B9624AE7 /* AvenirLTStd-MediumOblique.otf */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-			path = "";
 		};
 /* End PBXGroup section */
 
@@ -317,13 +316,14 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1130;
+				LastUpgradeCheck = 1230;
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = DYUE43NX2Y;
 						LastSwiftMigration = 1120;
 					};
 					2D02E47A1E0B4A5D006451C7 = {
@@ -511,11 +511,13 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-OneMinuteBar-OneMinuteBarTests/Pods-OneMinuteBar-OneMinuteBarTests-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
 				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
 			);
@@ -531,11 +533,13 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-OneMinuteBar/Pods-OneMinuteBar-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
 				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
 			);
@@ -661,13 +665,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F16E98531816377EDC3EF190 /* Pods-OneMinuteBar-OneMinuteBarTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = OneMinuteBarTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"-ObjC",
@@ -684,10 +689,11 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9BCB78F32A17E67B172B75EC /* Pods-OneMinuteBar-OneMinuteBarTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = OneMinuteBarTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"-ObjC",
@@ -707,6 +713,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DYUE43NX2Y;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = OneMinuteBar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -730,6 +737,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DYUE43NX2Y;
 				INFOPLIST_FILE = OneMinuteBar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -768,7 +776,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 10.0;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
 			};
 			name = Debug;
 		};
@@ -796,7 +804,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 10.0;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
 			};
 			name = Release;
 		};
@@ -823,7 +831,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OneMinuteBar-tvOS.app/OneMinuteBar-tvOS";
-				TVOS_DEPLOYMENT_TARGET = 10.1;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
 			};
 			name = Debug;
 		};
@@ -850,7 +858,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OneMinuteBar-tvOS.app/OneMinuteBar-tvOS";
-				TVOS_DEPLOYMENT_TARGET = 10.1;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
 			};
 			name = Release;
 		};
@@ -877,12 +885,14 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -901,7 +911,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited)";
 				LIBRARY_SEARCH_PATHS = (
 					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
@@ -937,12 +947,14 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -954,7 +966,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited)";
 				LIBRARY_SEARCH_PATHS = (
 					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",

@@ -15,15 +15,23 @@ function MyStack() {
       <Stack.Screen
         name="LoadingScreen"
         component={LoadingScreen}
-        options={(header = null)}
+        options={{headerShown: false, gestureEnabled: false}}
       />
-      <Stack.Screen name="LoginScreen" component={LoginScreen} />
+      <Stack.Screen
+        name="LoginScreen"
+        component={LoginScreen}
+        options={{headerShown: false, gestureEnabled: false}}
+      />
       <Stack.Screen
         name="DashboardScreen"
         component={DashboardScreen}
-        options={(header = null)}
+        options={{headerShown: false, gestureEnabled: false}}
       />
-      <Stack.Screen name="Auth" component={SignUpScreen} />
+      <Stack.Screen
+        name="Auth"
+        component={SignUpScreen}
+        options={{headerShown: false, gestureEnabled: true}}
+      />
     </Stack.Navigator>
   );
 }

@@ -5,6 +5,8 @@ import {
   ImageBackground,
   TextInput,
   Image,
+  StatusBar,
+  KeyboardAvoidingView,
 } from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import React, {useState, useEffect} from 'react';
@@ -17,67 +19,73 @@ if (!firebase.apps.length) {
 }
 
 SignIn = (email, password, props) => {
-  try {
-    auth().signInWithEmailAndPassword(email, password);
-
-    auth().onAuthStateChanged(() => {
+  auth()
+    .signInWithEmailAndPassword(email, password)
+    .then(() => {
       AsyncStorage.setItem('isLoggedIn', 'YES');
-
       props.navigation.navigate('DashboardScreen');
+    })
+    .catch((error) => {
+      props.navigation.navigate('LoginScreen');
+      AsyncStorage.setItem('isLoggedIn', 'NO');
     });
-  } catch (error) {
-    console.log(error.toString(error));
-  }
 };
 
 export default function LoginScreen(props) {
   const [mail, setMail] = useState('');
   const [password, setPassword] = useState('');
-
   return (
-    <ImageBackground
-      source={require('./../../images/Fondo.png')}
-      style={{width: '100%', height: '100%'}}>
-      <Image
-        source={require('./../../images/Logo-Inicio.png')}
-        style={styles.logoContainer}
-      />
-      <View style={styles.credentialContainer}>
-        <TextInput
-          textContentType="username"
-          onChangeText={(mail) => setMail(mail)}
-          placeholder="Usuario"
-          placeholderTextColor="#fabd00"
-          fontFamily="AvenirLTStd-Light"
-          autoCapitalize="none"
-          autoCorrect={false}
-          style={styles.inputBox}
+    <KeyboardAvoidingView behavior="position">
+      <ImageBackground
+        source={require('./../../images/Fondo.png')}
+        style={{width: '100%', height: '100%'}}>
+        <Image
+          source={require('./../../images/Logo-Inicio.png')}
+          style={styles.logoContainer}
         />
-        <TextInput
-          textContentType="password"
-          onChangeText={(password) => setPassword(password)}
-          placeholder="Contraseña"
-          placeholderTextColor="#fabd00"
-          fontFamily="AvenirLTStd-Light"
-          secureTextEntry={true}
-          autoCapitalize="none"
-          autoCorrect={false}
-          style={styles.inputBox}
-        />
-        <TouchableOpacity onPress={() => props.navigation.navigate('Auth')}>
-          <Image
-            source={require('./../../images/Boton-1.png')}
-            style={styles.registerButton}
+        <StatusBar barStyle="light-content" />
+        <View style={styles.credentialContainer}>
+          <TextInput
+            textContentType="username"
+            onChangeText={(mail) => setMail(mail)}
+            placeholder="Usuario"
+            placeholderTextColor="#fabd00"
+            fontFamily="AvenirLTStd-Light"
+            autoCapitalize="none"
+            autoCorrect={false}
+            style={styles.inputBox}
           />
-        </TouchableOpacity>
-        <TouchableOpacity onPress={() => SignIn(mail, password, props)}>
-          <Image
-            source={require('./../../images/Boton-2.png')}
-            style={styles.logginButton}
+
+          <TextInput
+            textContentType="password"
+            onChangeText={(password) => setPassword(password)}
+            placeholder="Contraseña"
+            placeholderTextColor="#fabd00"
+            fontFamily="AvenirLTStd-Light"
+            secureTextEntry={true}
+            autoCapitalize="none"
+            autoCorrect={false}
+            style={styles.inputBox}
           />
-        </TouchableOpacity>
-      </View>
-    </ImageBackground>
+          <TouchableOpacity
+            onPress={() => props.navigation.navigate('Auth')}
+            style={styles.registerButton}>
+            <Image
+              source={require('./../../images/Boton-1.png')}
+              style={styles.registerButtonImage}
+            />
+          </TouchableOpacity>
+          <TouchableOpacity
+            onPress={() => SignIn(mail, password, props)}
+            style={styles.logginButton}>
+            <Image
+              source={require('./../../images/Boton-2.png')}
+              style={styles.logginButtonImage}
+            />
+          </TouchableOpacity>
+        </View>
+      </ImageBackground>
+    </KeyboardAvoidingView>
   );
 }
 
@@ -85,14 +93,14 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
 
-    // alignItems: "center",
+    // alignItems: "center"s
     justifyContent: 'center',
   },
   logoContainer: {
     flex: 5,
-    justifyContent: 'center',
-    resizeMode: 'center',
-    //height: 1,
+    //justifyContent: 'center',
+    resizeMode: 'contain',
+    //height: null,
     marginLeft: '19.5%',
     marginBottom: '40%',
     marginTop: '20%',
@@ -125,18 +133,23 @@ const styles = StyleSheet.create({
     marginTop: '50%',
   },
   registerButton: {
-    justifyContent: 'center',
-    width: 450,
-    height: 70,
+    width: '100%',
+    height: '20%',
     resizeMode: 'contain',
-    marginTop: '10%',
-    marginLeft: '-2%',
+    marginTop: '15%',
+  },
+  registerButtonImage: {
+    width: '100%',
+    height: '100%',
+    resizeMode: 'contain',
   },
   logginButton: {
-    justifyContent: 'center',
-    width: 450,
-    height: 70,
+    width: '100%',
+    height: '20%',
+  },
+  logginButtonImage: {
+    width: '100%',
+    height: '100%',
     resizeMode: 'contain',
-    marginLeft: '-2%',
   },
 });
